@@ -1,0 +1,101 @@
+==================================================
+        PERSONAL INFORMATION MANAGER
+==================================================
+
+Please enter the following details:
+----------------------------------------
+What is your favorite food? Pizza
+What is your favorite color? Blue
+
+==================================================
+             YOUR INFORMATION
+==================================================
+Name            : Kavya Sahu
+Age             : 19 years
+Age in Months   : 228 months
+City            : Bhopal
+Hobby           : Coding And Reading
+--------------------------------------------------
+Favorite Food   : Pizza
+Favorite Color  : Blue
+==================================================
+Thank you for using the program!
+Have a great day!
+==================================================
+
+TEST CASE 1 — VALID USER INPUT
+==================================================
+
+Favorite Food Input  : Momos
+Favorite Color Input : Purple
+
+Expected Result:
+The program should accept the inputs successfully
+and display all personal information in a properly
+formatted structure.
+
+
+TEST CASE 2 — EMPTY INPUT VALIDATION
+==================================================
+
+Favorite Food Input  :
+Favorite Color Input : Green
+
+Expected Result:
+The program should not accept empty input and
+should display the message:
+
+"Favorite food cannot be empty!"
+
+The user should be asked to enter the input again.
+
+
+TEST CASE 3 — INPUT WITH EXTRA SPACES
+==================================================
+
+Favorite Food Input  :        pasta
+Favorite Color Input :        black
+
+Expected Result:
+The program should remove unnecessary spaces
+using the `.strip()` method and display:
+
+Pasta
+Black
+
+
+TEST CASE 4 — MIXED UPPERCASE AND LOWERCASE INPUT
+==================================================
+
+Favorite Food Input  : pIZZa
+Favorite Color Input : yeLLoW
+
+Expected Result:
+The program should properly format the text
+using string methods and display:
+
+Pizza
+Yellow
+
+
+TEST CASE 5 — LONG TEXT INPUT
+==================================================
+
+Favorite Food Input  : Cheese Burst Pizza
+Favorite Color Input : Dark Blue
+
+Expected Result:
+The program should correctly display long text
+inputs without affecting formatting or alignment.
+
+
+TEST CASE 6 — INPUT CONTAINING ONLY SPACES
+==================================================
+
+Favorite Food Input  :       
+Favorite Color Input : White
+
+Expected Result:
+The program should treat spaces as empty input
+after applying `.strip()` and ask the user to
+enter valid input again.

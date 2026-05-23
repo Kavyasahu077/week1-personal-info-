@@ -198,20 +198,6 @@ Some additional features that can be added in future versions:
 
 ---
 
-# Screenshots
-
-## Program Output
-
-(Add your screenshot here)
-
----
-
-## Input Validation
-
-(Add your screenshot here)
-
----
-
 # Author
 
 **Kavya Sahu**  
